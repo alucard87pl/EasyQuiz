@@ -14,6 +14,7 @@ To run:
 ```bash
 git clone https://github.com/alucard87pl/EasyQuiz.git
 cd EasyQuiz
+pip install -r reqs.txt
 python main.py
 ```
 
