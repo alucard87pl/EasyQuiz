@@ -16,3 +16,12 @@ git clone https://github.com/alucard87pl/EasyQuiz.git
 cd EasyQuiz
 python main.py
 ```
+
+Please don't cheat until I figure out how to get rid of the console :)
+
+TODO:
+
+- [] "Millionaire" mode (15 questions, increasing in difficulty, answer in order)
+- [] Saving results to a file
+- [] GUI cleanup and tweaks
+- [] single-file executable/installer
