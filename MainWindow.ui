@@ -77,6 +77,9 @@
             <property name="maximum">
              <number>50</number>
             </property>
+            <property name="value">
+             <number>10</number>
+            </property>
            </widget>
           </item>
           <item row="0" column="0">
@@ -321,6 +324,8 @@
      <string>Help</string>
     </property>
     <addaction name="actionAbout"/>
+    <addaction name="separator"/>
+    <addaction name="actionReport_Issue_on_GitHub"/>
    </widget>
    <addaction name="menuFile"/>
    <addaction name="menuHelp"/>
@@ -341,12 +346,17 @@
     <string>About</string>
    </property>
   </action>
+  <action name="actionReport_Issue_on_GitHub">
+   <property name="text">
+    <string>Report Issue on GitHub</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>
  <buttongroups>
-  <buttongroup name="bg_diff"/>
   <buttongroup name="bg_style"/>
   <buttongroup name="bg_type"/>
+  <buttongroup name="bg_diff"/>
  </buttongroups>
 </ui>
